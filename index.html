@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de Marcelo Calvimontes</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -24,7 +25,7 @@
         <main class="layout__content">
             <section id="proyectos">
                 <h2>Mis Proyectos</h2>
-                <div id="contenedor-proyectos">
+                <div class="contenedor-proyectos">
                     <div class="proyecto-card">
                         <h3>Plataforma de Verificación de proyectos "CIPRO"</h3>
                         <p>Aplicación web desarrollada para el Colegio de Ingenieros Civilies de Chuquisaca.</p>
@@ -46,17 +47,71 @@
                 </div>
             </section>
             <div id="habilidades-estudios">
-                <div class="contenedor-habilidades">
+                <section id="habilidades">
                     <h2>Habilidades</h2>
-                </div>
-                <div class="contenedor-estudios">
+                    <div class="skills-grid">
+
+                        <article class="skill-category">
+                            <h3>Frontend</h3>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>SASS</li>
+                                <li>VUE 3</li>
+                            </ul>
+                        </article>
+                        <article class="skill-category">
+                            <h3>Backend</h3>
+                            <ul>
+                                <li>PHP</li>
+                                <li>JavaScript</li>
+                                <li>Laravel</li>
+                                <li>Node.js</li>
+                            </ul>
+                        </article>
+                        <article class="skill-category">
+                            <h3>Bases de datos</h3>
+                            <ul>
+                                <li>MySQL</li>
+                                <li>PostgreSQL</li>
+                                <li>MariaDB</li>
+                            </ul>
+                        </article>
+
+                    </div>
+                </section>
+                <section id="estudios">
                     <h2>Estudios</h2>
-                </div>
+                    <div class="studies-list">
+                        <article class="study-item">
+                            <h3>Diplomado Full Stack Developer</h3>
+                            <p class="institution">Universidad del Valle</p>
+                            <p class="period">2026 - Actualidad</p>
+                        </article>
+                        <article class="study-item">
+                            <h3>Programa Cursos de Extensión de la Carrera de Idiomas</h3>
+                            <p class="institution">Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca</p>
+                            <p class="description">Nivel de idioma inglés Intermedio Superior B2</p>
+                            <p class="period">2022 - 2023</p>
+                        </article>
+                        <article class="study-item">
+                            <h3>Ingenieria de Sistemas</h3>
+                            <p class="institution">Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca</p>
+                            <p class="description">Formación en desarrollo de software, bases de datos, redes y gestión de proyectos.</p>
+                            <p class="period">2010 - 2024</p>
+                        </article>
+                        <article class="study-item">
+                            <h3>Bahiller en humanidades</h3>
+                            <p class="institution">Colegio Boliviano Alemán</p>
+                            <p class="period">1997 - 2009</p>
+                        </article>
+                    </div>
+                </section>
             </div>
         </main>
         
         <footer>
-            <p>&copy 2026 Marcelo Calvimontes. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Marcelo Calvimontes. Todos los derechos reservados.</p>
         </footer>
     </div>
     
